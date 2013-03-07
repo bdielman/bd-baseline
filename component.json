@@ -1,0 +1,9 @@
+{
+  "name": "bd-baseline",
+  "version": "0.1.0",
+  "author": "Brad Dielman",
+  "main": "./baseline.scss",
+  "dependencies": {
+    "normalize": "latest"
+  }
+}
