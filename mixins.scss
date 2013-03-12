@@ -7,11 +7,25 @@
 
   &:before,
   &:after {
-      content: " ";
-      display: table;
+    content: " ";
+    display: table;
   }
 
   &:after {
-      clear: both;
+    clear: both;
+  }
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  background-color: transparent;
+  border: 0;
+  *text-indent: -9999px; // IE 6/7 fallback
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
   }
 }

@@ -1,34 +1,3 @@
-// Helpers
-
-// Floats
-
-.fl-left {
-  float: left;
-}
-
-.fl-right {
-  float: right;
-}
-
-// Display
-
-.d-block {
-  display: block;
-}
-
-.d-inline-block {
-  display: inline-block;
-}
-
-.d-inline {
-  display: inline;
-}
-
-// Class named same as mixin for consistency
-.clearfix {
-  @include clearfix;
-}
-
 // Surgical classes
 // Borrowed from Nicole Sullivan's OOCSS
 

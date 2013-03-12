@@ -1,0 +1,27 @@
+// Text styles
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.txt-break {
+  word-break: break-all;
+  word-break: break-word;
+  word-wrap: break-word;
+}
