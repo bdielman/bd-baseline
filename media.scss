@@ -1,0 +1,23 @@
+// Media object
+
+// Ported from @stubbornella
+
+.media {
+  @include clearfix;
+
+  .media-obj {
+    float: left;
+
+    img {
+      display: block;
+    }
+  }
+
+  .media-obj-ext {
+    float: right;
+  }
+}
+
+.media-bd {
+  overflow: hidden;
+}
