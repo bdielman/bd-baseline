@@ -4,6 +4,6 @@
   "author": "Brad Dielman",
   "main": "./baseline.scss",
   "dependencies": {
-    "normalize-css"
+    "normalize-css": "latest"
   }
 }
