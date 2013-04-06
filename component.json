@@ -4,7 +4,4 @@
   "author": "Brad Dielman",
   "main": "baseline.scss",
   "styles": ["baseline.scss"]
-  // "dependencies": {
-  //   "normalize-css": "latest"
-  // }
 }
