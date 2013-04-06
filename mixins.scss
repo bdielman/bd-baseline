@@ -23,3 +23,32 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+// CSS3 helpers
+
+// Simple prefixer borrowed from Thoughtbot
+
+@mixin prefixer ($property, $value,
+                 $webkit: true,
+                 $moz:    true,
+                 $ms:     true,
+                 $o:      true,
+                 $spec:   true) {
+  @if $webkit { -webkit-#{$property}: $value; }
+  @if $moz    {    -moz-#{$property}: $value; }
+  @if $ms     {     -ms-#{$property}: $value; }
+  @if $o      {      -o-#{$property}: $value; }
+  @if $spec   {         #{$property}: $value; }
+}
+
+@mixin border-radius($radii) {
+  @include prefixer(border-radius, $radii);
+}
+
+@mixin box-sizing($sizing) {
+  @include prefixer(box-sizing, $sizing);
+}
+
+@mixin background-clip($clip) {
+  @include prefixer(background-clip, $clip);
+}
