@@ -1,6 +1,6 @@
 {
   "name": "bd-baseline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Brad Dielman",
   "main": "baseline.scss",
   "styles": ["baseline.scss"],
