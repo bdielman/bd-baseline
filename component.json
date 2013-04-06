@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "author": "Brad Dielman",
   "main": "baseline.scss",
-  "styles": ["baseline.scss"]
-  // "dependencies": {
-  //   "normalize-css": "latest"
-  // }
+  "styles": ["baseline.scss"],
+  "dependencies": {
+    "normalize-css": "latest"
+  }
 }
