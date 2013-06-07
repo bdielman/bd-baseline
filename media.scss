@@ -3,7 +3,7 @@
 // Ported from @stubbornella
 
 .media {
-  @include clearfix;
+  overflow: hidden;
 
   .media-obj {
     float: left;
