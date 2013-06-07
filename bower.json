@@ -1,8 +1,9 @@
 {
   "name": "bd-baseline",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Brad Dielman",
   "main": "baseline.scss",
-  "styles": ["baseline.scss"],
-  "dependencies": {}
+  "ignore": [
+    "README.md"
+  ]
 }
