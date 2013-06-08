@@ -1,6 +1,7 @@
-BD Baseline
-===========
+# BD Baseline
 
 A baseline for new SCSS based projects
 
-v0.1.3
+v0.2.4
+
+This is a set of baseline styles to kickstart a new project. They provide some basic helpers and styles such as the media object, flexible media containers for responsive video, states and more.
