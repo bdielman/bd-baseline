@@ -1,0 +1,20 @@
+// Layout styles
+
+.l-container {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: $l-max-width;
+  width: 90%;
+}
+
+.l-fl-left {
+  float: left;
+}
+
+.l-fl-right {
+  float: right;
+}
+
+.l-section {
+  margin-bottom: 20px;
+}
