@@ -1,9 +1,22 @@
 // Import all the things
 
-@import "display";
-@import "text";
-@import "links";
-@import "spacing";
-@import "states";
-@import "media";
-@import "flexible-media";
+// Base
+
+@import "base/normalize";
+@import "base/settings";
+@import "base/helpers";
+@import "base/base";
+@import "base/content";
+
+// Layout
+
+@import "layout/layout";
+
+// Modules
+
+@import "modules/buttons";
+@import "modules/media";
+
+// States
+
+@import "states/display";
