@@ -1,12 +1,12 @@
 // Flexible media styles
 
-.flexible-container {
+.flex-container {
   position: relative;
   padding: 0;
   height: 0;
   overflow: hidden;
 
-  .flexible-item,
+  .flex-item,
   iframe,   
   object,  
   embed {
@@ -20,10 +20,10 @@
 
 // Added these based on @necolas FlexEmbed
 
-.flexible-container--16x9 {
+.flex-container--16x9 {
   padding-bottom: 56.25%;
 }
 
-.flexible-container--4x3 {
+.flex-container--4x3 {
   padding-bottom: 75%;
 }
