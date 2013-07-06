@@ -1,3 +1,19 @@
+// Content styles
+
+%headline {
+  margin-top: 0;
+  font-family: $heading-font;
+  line-height: 1.2;
+}
+
+.primary-headline {
+  @extend %headline;
+}
+
+.secondary-headline {
+  @extend %headline;
+}
+
 // Text styles
 
 .txt-left {
@@ -10,18 +26,4 @@
 
 .txt-center {
   text-align: center;
-}
-
-.txt-truncate {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-}
-
-.txt-break {
-  word-break: break-all;
-  word-break: break-word;
-  word-wrap: break-word;
 }

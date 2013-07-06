@@ -1,0 +1,44 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: $sans-serif-font;
+  line-height: 1.4;
+  color: #333;
+}
+
+a { 
+  color: $link-color; 
+
+  &:hover,
+  &:focus {
+    color: darken($link-color, 10%);
+  }
+}
+
+// Base form styles
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+// Base table styles
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Responsive media
+
+img,
+object,
+embed {
+  max-width: 100%;
+}
