@@ -7,14 +7,16 @@
   width: 90%;
 }
 
+.l-section {
+  margin-bottom: 20px;
+}
+
+// Layout helpers
+
 .l-fl-left {
   float: left;
 }
 
 .l-fl-right {
   float: right;
-}
-
-.l-section {
-  margin-bottom: 20px;
 }

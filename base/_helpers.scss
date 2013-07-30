@@ -19,7 +19,7 @@
 
 // Media query mixin
 
-@mixin respond-to($val, $query: min-width, $media: screen) {
+@mixin respond-to($val, $query: min-width, $media: only screen) {
   @media #{$media} and ($query: $val) {
     @content
   }
