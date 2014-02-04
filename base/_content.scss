@@ -1,4 +1,7 @@
 // Content styles
+// --------------
+
+// Headline styles
 
 %headline {
   margin-top: 0;
@@ -6,28 +9,63 @@
   line-height: 1.2;
 }
 
-.primary-headline {
+h1, .c-h1, %c-h1,
+h2, .c-h2, %c-h2,
+h3, .c-h3, %c-h3,
+h4, .c-h4, %c-h4,
+h5, .c-h5, %c-h5,
+h6, .c-h6, %c-h6 {
   @extend %headline;
 }
 
-.secondary-headline {
-  @extend %headline;
+h1,
+.c-h1,
+%c-h1 {
+}
+
+h2, 
+.c-h2, 
+%c-h2 {
+}
+
+h3, 
+.c-h3,
+%c-h3 {
+}
+
+h4,
+.c-h4,
+%c-h4 {
+}
+
+h5,
+.c-h5,
+%c-h5 {
+}
+
+h6,
+.c-h6,
+%c-h6 {
 }
 
 // Text utilities
 
+%txt-left,
 .txt-left {
   text-align: left;
 }
 
+%txt-right,
 .txt-right {
   text-align: right;
 }
 
+%txt-center,
 .txt-center {
   text-align: center;
 }
 
+%txt-justify,
 .txt-justify {
   text-align: justify;
 }
