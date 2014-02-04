@@ -4,7 +4,7 @@
   display: inline-block;
   position: relative;
   margin: 0;
-  padding: 0.4em 0.75em;
+  padding: 8px 12px;
   cursor: pointer;
   line-height: normal;
   text-align: center;
@@ -41,4 +41,18 @@
 .button--full {
   display: block;
   width: 100%;
+}
+
+// Pseudo button
+// -------------
+// Use the same padding as a default button,
+// for use in situations where a cancel link
+// sits next to a button.
+
+.button-pseudo {
+  padding: 8px 0;
+
+  .button + & {
+    margin-left: 15px;
+  }
 }
