@@ -1,3 +1,7 @@
+// BASE STYLES
+// -----------------------------
+// For styling elements directly
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -6,8 +10,8 @@
 
 body {
   font-family: $sans-serif-font;
-  line-height: 1.4;
-  color: #333;
+  line-height: $default-leading;
+  color: $default-text-color;
 }
 
 a { 

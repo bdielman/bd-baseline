@@ -53,6 +53,6 @@
   padding: 8px 0;
 
   .button + & {
-    margin-left: 15px;
+    margin-left: $default-whitespace;
   }
 }

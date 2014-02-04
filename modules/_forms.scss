@@ -6,16 +6,16 @@
 .form-vertical {
   label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: ($condensed-whitespace / 2);
   }
 
   input,
   textarea,
   select {
-    margin-bottom: 15px;
+    margin-bottom: $default-whitespace;
   }
 }
 
 .field {
-  margin-bottom: 15px;
+  margin-bottom: $default-whitespace;
 }
