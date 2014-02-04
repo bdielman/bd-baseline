@@ -14,7 +14,7 @@
   @extend %headline;
 }
 
-// Text styles
+// Text utilities
 
 .txt-left {
   text-align: left;
@@ -26,4 +26,8 @@
 
 .txt-center {
   text-align: center;
+}
+
+.txt-justify {
+  text-align: justify;
 }
