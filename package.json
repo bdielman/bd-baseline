@@ -1,0 +1,12 @@
+{
+  "name": "BDBaseline",
+  "description": "A baseline for new SCSS based projects",
+  "dependencies": {},
+  "devDependencies": {
+    "broccoli": "^0.12.2",
+    "broccoli-bower": "^0.2.1",
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-sass": "^0.1.4",
+    "broccoli-static-compiler": "^0.1.4"
+  }
+}

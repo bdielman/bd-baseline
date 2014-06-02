@@ -1,1 +1,4 @@
 component
+node_modules
+tmp
+bower_components
